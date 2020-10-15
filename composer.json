@@ -1,0 +1,25 @@
+{
+    "name": "plebeu-code/notification",
+    "description": "This is a library that uses composer as the basic for generating mail notification",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Plebeu-code",
+            "email": "astronauta2027@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "6.1.8"
+    },
+    "config": {
+        "vendor-dir": "anime_lib"
+    },
+    "autoload": {
+        "psr-4": {
+            "Notification\\": "_app"
+        }
+    }
+}
