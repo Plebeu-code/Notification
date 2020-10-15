@@ -15,7 +15,7 @@
         "phpmailer/phpmailer": "6.1.8"
     },
     "config": {
-        "vendor-dir": "anime_lib"
+        "vendor-dir": "vendor"
     },
     "autoload": {
         "psr-4": {
